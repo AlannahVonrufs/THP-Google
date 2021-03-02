@@ -1,0 +1,76 @@
+body 
+	{font-family: roboto;}
+
+header
+	{ 
+	font-size: 12px;
+	display: flex; 
+	justify-content: flex-end;
+	}
+#google
+	{
+	display: flex;
+	justify-content: center;
+	}
+#search
+	{
+	display: flex;
+	justify-content: center;
+	}
+#search
+input 
+	{ 
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px #F2F2F2 solid;
+	}
+
+input:focus 
+	{
+	box-shadow: 3px 3px 3px grey;
+	background-color : #FCFCFC;
+	}
+#boutons
+	{
+	font-family: roboto;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	border: 1px #ffffff solid;
+	}
+input
+	{
+	font-family: roboto;
+	margin-left: 20px;
+	margin-right: 20px; 
+	}
+input:focus 
+	{
+	box-shadow: 3px 3px 3px grey;
+	background-color : #FCFCFC;
+	}
+#english
+	{
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	}
+#centre
+	{margin: 50px;}
+footer
+	{
+	font-family: roboto;
+	color : #88888;
+	font-size: 14px;
+	background-color : #E0E0E0; 
+	padding: 4px;
+	position: absolute; bottom: 0; left: 0; right: 0
+	}
+
+#foot
+	{
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 10px;
+	justify-content: space-between;
+	}
